@@ -68,7 +68,9 @@ int main() {
 }
 ```
 ## OUTPUT:
-![Screenshot 2024-03-17 123635](https://github.com/ilaya27464/Cryptography---19CS412-classical-techqniques/assets/127576283/e2fb5242-d8f2-4429-81df-b9eec9db95a4)
+
+![Screenshot (7)](https://github.com/Jothish741/Cryptography---19CS412-classical-techqniques/assets/127813293/0aa53c44-943a-4006-96a7-ab4db0b7f296)
+
 
 
 
@@ -100,53 +102,8 @@ Testing algorithm with different key values.
 
 ## PROGRAM:
 ```
-#include <stdio.h>
-#include <string.h>
-#include <ctype.h>
-#define MX 5
 
-void playfair(char ch1, char ch2, char key[MX][MX]) {
-    int i, j, w, x, y, z;
-    FILE *out;
-
-    if ((out = fopen("cipher.txt", "a+")) == NULL) {
-        printf("File Corrupted.");
-        return;
-    }
-
-    for (i = 0; i < MX; i++) {
-        for (j = 0; j < MX; j++) {
-            if (ch1 == key[i][j]) {
-                w = i;
-                x = j;
-            } else if (ch2 == key[i][j]) {
-                y = i;
-                z = j;
-            }
-        }
-    }
-
-    if (w == y) {
-        x = (x + 1) % 5;
-        z = (z + 1) % 5;
-        printf("%c%c", key[w][x], key[y][z]);
-        fprintf(out, "%c%c", key[w][x], key[y][z]);
-    } else if (x == z) {
-        w = (w + 1) % 5;
-        y = (y + 1) % 5;
-        printf("%c%c", key[w][x], key[y][z]);
-        fprintf(out, "%c%c", key[w][x], key[y][z]);
-    } else {
-        printf("%c%c", key[w][z], key[y][x]);
-        fprintf(out, "%c%c", key[w][z], key[y][x]);
-    }
-
-    fclose(out);
-}
-
-int main() {
-    int i, j, k = 0, l, m = 0, n;
-    char key[MX][MX], keyminus[25], keystr[10], str[25] = {0};
+[25], keystr[10], str[25] = {0};
     char alpa[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     printf("\nEnter key: ");
     gets(keystr);
