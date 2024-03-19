@@ -300,9 +300,11 @@ int main()
 
 
 
+
 ```
 ## OUTPUT:
-![Screenshot 2024-03-17 123559](https://github.com/ilaya27464/Cryptography---19CS412-classical-techqniques/assets/127576283/a2a7ddfe-03da-4a51-be07-1927f11cb845)
+
+![Screenshot (9)](https://github.com/Jothish741/Cryptography---19CS412-classical-techqniques/assets/127813293/ef36153f-86d7-4d5e-8978-312dacb9b915)
 
 
 ## RESULT:
@@ -417,10 +419,8 @@ int main() {
 
 ```
 ## OUTPUT:
-![Screenshot (479)](https://github.com/ilaya27464/Vigenere_cipher/assets/127576283/ec2631d8-7e0e-4037-b8c6-97c15599cf69)
+![Screenshot (10)](https://github.com/Jothish741/Cryptography---19CS412-classical-techqniques/assets/127813293/4637407e-8831-4cc9-af70-b44ce2afc07b)
 
-## Decryption:
-![Screenshot (478)](https://github.com/ilaya27464/Vigenere_cipher/assets/127576283/27257cdc-563c-411c-9c20-7d72d1572fd0)
 
 
 
@@ -572,7 +572,7 @@ int main() {
 ```
 ## OUTPUT:
 ## Encryption:
-![Screenshot 2024-03-17 123526](https://github.com/ilaya27464/Cryptography---19CS412-classical-techqniques/assets/127576283/380734af-b7dc-42a4-857e-6339bee08140)
+![Screenshot (11)](https://github.com/Jothish741/Cryptography---19CS412-classical-techqniques/assets/127813293/e9528a4d-12e0-4dd7-92a2-f2eefd2e6344)
 
 
 
